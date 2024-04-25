@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%; /* Adjust width as needed */
+  height: 100%;
+  background-color: #dddddde7;
+}
+
+.centered-title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.content-text {
+  margin-bottom: 15px;
+  text-align: center;
+}

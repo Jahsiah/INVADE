@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%; /* Adjust width as needed */
+  height: 100%;
+  background-color: #dddddde7;
+}
+
+.centered-title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.content-text {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.image-container {
+  display: flex; /* Arrange images side-by-side */
+  justify-content: space-between; /* Distribute images evenly */
+}
+
+.image {
+  width: 45%; /* Adjust image width as needed */
+  margin: 0 5px; /* Add spacing between images */
+}
+
+.overview_button {
+  width: 250px; /* Adjust image width as needed */
+  margin-left: 250px;
+  margin-top: 25px;
+}
+.playnow_button {
+  width: 250px; /* Adjust image width as needed */
+  margin-right: 250px;
+  margin-top: 25px;
+}
