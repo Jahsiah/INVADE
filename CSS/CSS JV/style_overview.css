@@ -4,10 +4,17 @@ body {
 }
 
 .container {
-  position: relative; /* Enable absolute positioning */
-  width: 100vw; /* Take up full viewport width */
-  height: 100vh; /* Take up full viewport height */
-  background-color: #dddddde7;
+  width: 98%; /* Adjust width as needed */
+  margin-top: 1%;
+  margin-left: 1%;
+  height: 95%;
+  border-top: 2px solid #ffffff75;
+  border-left: 2px solid #ffffff75;
+  box-shadow: 5px 5px 12px #00000035;
+  background: #ffffff50;
+  border-radius: 15px;
+  overflow: hidden;
+  backdrop-filter: blur(4px);
 }
 
 .centered-title {

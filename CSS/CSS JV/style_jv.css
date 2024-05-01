@@ -4,9 +4,17 @@ body {
 }
 
 .container {
-  width: 100%; /* Adjust width as needed */
+  width: 98%; /* Adjust width as needed */
+  margin-top: 1%;
+  margin-left: 1%;
   height: 100%;
-  background-color: #dddddde7;
+  border-top: 2px solid #ffffff75;
+  border-left: 2px solid #ffffff75;
+  box-shadow: 5px 5px 12px #00000035;
+  background: #ffffff50;
+  border-radius: 15px;
+  overflow: hidden;
+  backdrop-filter: blur(4px);
 }
 
 .centered-title {

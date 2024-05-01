@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../../CSS/BASE_STYLE.css" />
     <link rel="stylesheet" href="../../CSS/CSS JV/style_jv.css" />
+    <link rel="stylesheet" href="../../CSS/style_button.css" />
   </head>
   <body>
     <div class="logo">
@@ -34,22 +35,24 @@
       </p>
       <div class="image-container">
         <a href="overview.html">
-          <input
-            type="image"
-            src="../../ASSETS/images/overview_button.png"
-            name="saveForm"
-            class="overview_button"
-            id="saveForm"
-        /></a>
+          <button class="OV_button">
+            <span class="button-content">OVERVIEW </span>
+          </button>
+        </a>
         <a href="download.html">
-          <input
-            type="image"
-            src="../../ASSETS/images/playnow_button.png"
-            name="saveForm"
-            class="playnow_button"
-            id="saveForm"
-        /></a>
+          <button class="DL_button">
+            <span class="button-content">DOWNLOAD </span>
+          </button>
+        </a>
+      </div>
+
+      <div class="game_stats">
+        <h1>Game Scores</h1>
+        <ul id="scores-list">
+          <!-- Scores will be dynamically added here -->
+        </ul>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -5,12 +5,13 @@ html {
     url("../ASSETS/images/background.jpeg");
 
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   position: relative;
 }
 
 .logo_img {
+  margin-top: 15px;
   height: 100px;
   margin-left: 47%;
 }

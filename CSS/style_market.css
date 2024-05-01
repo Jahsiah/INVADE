@@ -4,9 +4,17 @@ body {
 }
 
 .container {
-  width: 100%; /* Adjust width as needed */
-  height: 100%;
-  background-color: #dddddde7;
+  width: 98%; /* Adjust width as needed */
+  margin-top: 1%;
+  margin-left: 1%;
+  height: 95%;
+  border-top: 2px solid #ffffff75;
+  border-left: 2px solid #ffffff75;
+  box-shadow: 5px 5px 12px #00000035;
+  background: #ffffff50;
+  border-radius: 15px;
+  overflow: hidden;
+  backdrop-filter: blur(4px);
 }
 
 .centered-title {
@@ -17,4 +25,17 @@ body {
 .content-text {
   margin-bottom: 15px;
   text-align: center;
+}
+
+.img_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Imgs {
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 50px;
+  border-color: black;
+  border: solid;
 }
