@@ -7,7 +7,6 @@ body {
   width: 98%; /* Adjust width as needed */
   margin-top: 1%;
   margin-left: 1%;
-  height: 95%;
   border-top: 2px solid #ffffff75;
   border-left: 2px solid #ffffff75;
   box-shadow: 5px 5px 12px #00000035;
@@ -38,4 +37,19 @@ body {
   margin-top: 50px;
   border-color: black;
   border: solid;
+  margin-bottom: 25px;
+}
+
+.Charte-title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.charteGraph {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.Graph {
+  width: 75%;
+  margin: 50px;
 }
